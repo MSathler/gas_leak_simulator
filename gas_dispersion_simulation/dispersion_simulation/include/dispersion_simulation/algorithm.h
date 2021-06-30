@@ -26,7 +26,7 @@
 #define STORE_SIM_IN_FILE
 
 
-#define WIND_DATA	"/home/victor/ros_catkin/odour_simulation_ws/src/dispersion_simulation/CSV/Velocity0."
+#define WIND_DATA	"/home/itv/espeleo_ws/src/gas_leak_simulator/dispersion_simulation/CSV/Velocity0."
 
 //../CSV/Velocity0.
 

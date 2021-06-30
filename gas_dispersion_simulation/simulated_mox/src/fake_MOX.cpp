@@ -305,7 +305,7 @@ void  writeTofile       (msgs_and_srvs::readings response)
 {
 	static FILE *file;
 
-	file = fopen("/home/han/gdm_simulator_catkin_ws/src/gas_dispersion_simulation/simulated_mox/mox_data/sensor_log.txt", "a");
+	file = fopen("/home/itv/espeleo_ws/src/gas_leak/gas_dispersion_simulation/simulated_mox/mox_data/sensor_log.txt", "a");
 	if (file == NULL) {
 		fprintf(stderr, "Error opening sensor_log.txt\n");
 		exit(1);

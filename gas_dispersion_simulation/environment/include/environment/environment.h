@@ -11,7 +11,7 @@
 #define 	DEFAULT_SOURCE_POS_X				0
 #define 	DEFAULT_SOURCE_POS_Y				0
 #define 	DEFAULT_SOURCE_POS_Z				0.5
-#define		DEFAULT_ENVIRONMENT_DATA			"/home/victor/windData/environments/original"
+#define		DEFAULT_ENVIRONMENT_DATA			"/home/itv/Desktop/gas_dispersion/GasSim/data/environments/original"
 #define		DEFAULT_FIXED_FRAME					"/map2"
 
 #define	DEFAULT_AREA_X						31

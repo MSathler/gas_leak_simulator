@@ -40,7 +40,7 @@ int main(int argc, char** argv)
 			"/odor_value");
 
 	std::ifstream stream(
-			"/home/pulver/vhbennetts-gas_dispersion_simulator-133e66aa7611/demo_files/windData/environments/original.env",
+			"/home/itv/Desktop/gas_dispersion/GasSim/data/windData/environments/original.env",
 			std::ifstream::binary);
 
 	tf::TransformListener listener;
@@ -482,7 +482,7 @@ static FILE *file;
 
 file =
 		fopen(
-				"/home/han/gdm_simulator_catkin_ws/src/gas_dispersion_simulation/simulated_tdlas/src/sensor_log.txt",
+				"/home/itv/espeleo_ws/src/gas_leak_simulator/gas_dispersion_simulation/simulated_tdlas/src/sensor_log.txt",
 				"a");
 if (file == NULL) {
 	fprintf(stderr, "Error opening sensor_log.txt\n");

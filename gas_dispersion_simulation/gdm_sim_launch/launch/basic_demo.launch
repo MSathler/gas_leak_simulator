@@ -45,20 +45,20 @@
 	<param name="/source_position_y" value="$(arg SourcePositionY)"/>
 	<param name="/source_position_z" value="$(arg SourcePositionZ)"/>
 	<param name="/fixed_frame" value="$(arg FixedFrame)"/>
-	<param name="/environment_data" value="/home/han/gdm_simulator_catkin_ws/data/environments/original.env" />
+	<param name="/environment_data" value="/home/itv/Desktop/gas_dispersion/GasSim/data/environments/single_obstacle.env" />
 </node>
 
 <!-- ===============================================================
      = D) Gas dispersion node                                      =
      ===============================================================   -->
 <node pkg="dispersion_simulation" type="odorsimulation" name="dispersal_simulation" output="screen"> 
-        <param name="/environment_file" value="/home/han/GasDispersionSimulation_ConcentrationVisualization/data/environments/original.env" />
+        <param name="/environment_file" value="/home/itv/Desktop/gas_dispersion/GasSim/data/environments" />
 	<param name="/gas_type" value="$(arg GasType)" />
 	<param name="/snapshots" value="200" />
 	<param name="/filaments" value="300" />
 	<param name="/delta_t" value="1" />
-	<param name="/wind_data" value="/home/han/GasDispersionSimulation_ConcentrationVisualization/data/windData/original/t600s_030." />
-        <param name="/result_location" value="/home/han/GasDispersionSimulation_ConcentrationVisualization/simulation_result/" />
+	<param name="/wind_data" value="/home/itv/Desktop/gas_dispersion/GasSim/data/windData/simple_case/simple_case0.0.csv_U" />
+        <param name="/result_location" value="/home/itv/Desktop/gas_dispersion/GasSim/simulation_result/" />
 	<param name="/area_size_x" value="$(arg AreaSizeX)"/>
 	<param name="/area_size_y" value="$(arg AreaSizeY)"/>
 	<param name="/area_size_z" value="$(arg AreaSizeZ)"/>

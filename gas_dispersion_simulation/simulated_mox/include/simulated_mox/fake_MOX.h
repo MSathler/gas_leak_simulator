@@ -44,7 +44,7 @@
 #define		DEFAULT_SENSOR_MODEL				TGS2620_ID				
 #define		DEFAULT_SENSOR_FRAME				"mox_frame"
 #define		DEFAULT_FIXED_FRAME					"/map"
-#define	DEFAULT_RESULT_LOCATION				"/home/han/gdm_simulator_catkin_ws/src/gas_dispersion_simulation/recordedData/faster_releaseRate/" // you can also set the beginnings of the file names here.
+#define	DEFAULT_RESULT_LOCATION				"/home/itv/espeleo_ws/src/gas_leak_simulator/gas_dispersion_simulation/recordedData/faster_releaseRate/" // you can also set the beginnings of the file names here.
 
 using namespace std;
 

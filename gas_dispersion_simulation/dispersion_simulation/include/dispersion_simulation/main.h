@@ -33,10 +33,10 @@
 #define DEFAULT_NUM_MOLECULES               0.2463*pow(10,3)
 #define	DEFAULT_GAS_TYPE					3
 #define	DEFAULT_DELTA_T						1
-#define	DEFAULT_WIND_DATA					"/home/victor/windData/single_obstacle/single_obstacle0."
+#define	DEFAULT_WIND_DATA					"/home/itv/Desktop/gas_dispersion/GasSim/data/windData/single_obstacle/single_obstacle0."
 //#define	DEFAULT_WIND_DATA					"/home/victor/ros_catkin/odour_simulation_ws/src/dispersion_simulation/CSV/Velocity0."
-#define	DEFAULT_RESULT_LOCATION				"/home/han/gdm_simulator_catkin_ws/src/gas_dispersion_simulation/recordedData/fasterRandom_releaseRate/" // you can also set the beginnings of the file names here.
-#define	DEFAULT_ENVIRONMENT_LOCATION		"/home/han/gdm_simulator_catkin_ws/data/environments/japan.env"
+#define	DEFAULT_RESULT_LOCATION				"/home/itv/espeleo_ws/src/gas_leak_simulator/gas_dispersion_simulation/recordedData/fasterRandom_releaseRate/" // you can also set the beginnings of the file names here.
+#define	DEFAULT_ENVIRONMENT_LOCATION		"/home/itv/Desktop/gas_dispersion/GasSim/data/simulation_data_package/environments/japan.env"
 //"/home/han/gdm_simulator_catkin_ws/data/environments/original.env"
 
 #define	DEFAULT_FILAMENT_NUMBER				100

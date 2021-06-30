@@ -47,14 +47,14 @@
 #define		DEFAULT_SENSOR_MODEL				TGS2620_ID				
 #define		DEFAULT_SENSOR_FRAME				"tdlas_frame"
 #define		DEFAULT_FIXED_FRAME					"map"
-#define	    DEFAULT_RESULT_LOCATION				"/home/han/gdm_simulator_catkin_ws/src/gas_dispersion_simulation/recordedData/TDLAS_sensor/" // you can also set the beginnings of the file names here.
+#define	    DEFAULT_RESULT_LOCATION				"/home/itv/espeleo_ws/src/gas_leak_simulator/gas_dispersion_simulation/recordedData/TDLAS_sensor/" // you can also set the beginnings of the file names here.
 #define		DEFAULT_STARTING_ANGLE				0*(PI /4)
 #define		DEFAULT_ENDING_ANGLE				1*(PI /10)
 #define		DEFAULT_INCIDENCE_ANGLE	            8.5*(PI/18)
 #define	    DEFAULT_BEAM_LENGTH                 15
 #define     DEFAULT_ACTIVATION_TIME             119
 
-#define	DEFAULT_ENVIRONMENT_LOCATION		"/home/han/DATA-forHan/corridor4/environment.env"
+#define	DEFAULT_ENVIRONMENT_LOCATION		"/home/itv/DATA-forHan/corridor4/environment.env"
 #define	DEFAULT_AREA_X						100
 #define	DEFAULT_AREA_Y						37
 #define	DEFAULT_AREA_Z						7
