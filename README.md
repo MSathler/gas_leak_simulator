@@ -3,6 +3,7 @@
 
 - With this package its possible to simulate a 3D gas dispersion considering wind and the collision of gas with obstacles.
 
+- Work in Ubuntu 16.04 ROS Kinetic Kame
 ## Install
 
 First download this package into your catkin workspace:
@@ -31,8 +32,8 @@ There are the already configured examples:
 - demo_Robot_arena_trial1e
 - demo_Robot_arena_trial1e
 
-      roslaunch gdm_sim_launch $example_launch_file
-      roslaunch gdm_sim_launch demo_Obstacles_SL2A.launch
+      roslaunch gas_concentration_visualization $example_launch_file
+      roslaunch gas_concentration_visualization demo_Obstacles_SL2A.launch
 
 
 

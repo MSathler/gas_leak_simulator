@@ -29,9 +29,9 @@
 		<param name="/MAX_CONCENTRATION" value="300000" />
 		<param name="/MIN_CONCENTRATION" value="0" />
 		<param name="/FIXED_FRAME" value="$(arg FixedFrame)" />
-		<param name="/NUM_SNAPSHOTS" value="200" />
+		<param name="/NUM_SNAPSHOTS" value="270" />
         <param name="/NUM_N_POINTS_MAP" value="100" />
-        <param name="/result_location" value="/home/han/GasDispersionSimulation_ConcentrationVisualization/data/simulation_data_package/Robot_arena_trial1p/Robot_arena_trial1p_snapshots/gasType3_simulation" />
+        <param name="/result_location" value="$(find gas_concentration_visualization)/simulation_data_package/Robot_arena_trial1p/Robot_arena_trial1p_snapshots/gasType3_simulation" />
 		<param name="/VALUE" value="cVal" />
    </node>
    <!-- ===============================================================
@@ -46,10 +46,11 @@
 	    <param name="/source_position_y" value="$(arg SourcePositionY)"/>
 	    <param name="/source_position_z" value="$(arg SourcePositionZ)"/>
 	    <param name="/fixed_frame" value="$(arg FixedFrame)"/>
-	    <param name="/environment_data" value="/home/han/GasDispersionSimulation_ConcentrationVisualization/data/simulation_data_package/Robot_arena_trial1p/japan.env" />
+	    <param name="/environment_data" value="$(find gas_concentration_visualization)/simulation_data_package/Robot_arena_trial1p/japan.env" />
    </node>
     
     <node pkg="rqt_rviz" type="rqt_rviz" name="rqt_rviz" />
 
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find gas_concentration_visualization)/rviz_config.rviz" />
    <!--node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="0 0 0 0 0 0 1 world map 100" /-->
 </launch>
